@@ -12,30 +12,29 @@ Ash dieback is a highly destructive disease of *ash trees* (Fraxinus species), e
 ![enter image description here](https://www.telegraph.co.uk/multimedia/archive/03394/ash-dieback_3394605b.jpg)
 
 ## Folder Structure
-├── LICENSE
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── test       <- Data for running the test-environment.py file.
-    │
-    ├── models             <- Folder containing all the scripts needed to run the ML models
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to pre-process data
-    │   │   └── label_studio.json
-    │   │   └── label_Studio_upload.py    
-    │   │   └── make_dataset.py    
-    │   │   └── organise_dataset.py
-    │   │
-    │   ├── pipeline       <- Scripts to create the flow of data
-    │   │
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+```
+project
+│   README.md
+│   Makefile    
+│   Run.py
+│   master_watcher.py
+│   requirements.txt
+│   setup-win.py
+│   summary_report.py
+│   time_drift.py
+│   
+└───models
+│   │   readme.md
+│   └───Image_classification
+│       │   get_inference.py
+│   └───Object_detection
+│       │   yolov5
+│   
+└───src
+│   └───additional
+│   └───data
+│   └───pipeline
+```
 
 ## Installation
 For installing this script, first you need to visit [ZED SDK 3.6 - Download | Stereolabs](https://www.stereolabs.com/developers/release/) and install the version 3.6.5.
