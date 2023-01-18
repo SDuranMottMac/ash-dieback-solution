@@ -37,7 +37,7 @@ project
 ```
 
 ## Installation
-For installing this script, first you need to visit [ZED SDK 3.6 - Download | Stereolabs](https://www.stereolabs.com/developers/release/) and install the version 3.6.5.
+For installing this script, first you need to visit [ZED SDK 3.6 - Download | Stereolabs](https://www.stereolabs.com/developers/release/) and install the version 3.7.0.
 
 It is recommended to create a new virtual environment with Python 3.9+. After that, all the required dependencies can be found in the requirements.txt file. So, if you are using windows, please run:
 
@@ -48,9 +48,9 @@ pip install -r requirements-win.txt
 To start using the ZED SDK in Python, you will need to install the following dependencies on your system:
 
 -   [ZED SDK](https://www.stereolabs.com/developers/release/)  (see Installation section)
--   Python 3.6+ (x64)
+-   Python 3.7+ (x64)
 -   Cython 0.26+
--   Numpy 1.13+
+-   Numpy 1.23+
 -   OpenCV Python (optional)
 -   PyOpenGL (optional)
 
